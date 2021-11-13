@@ -10,7 +10,10 @@
     background-repeat: no-repeat;
     background-color: $col;
     background-position: 90% 30%;
-    border-radius: 15px 15px 0 0;
+    border-radius: 15px;
+}
+
+.sm-container, .lg-container{
     padding: 20px;
 }
 
@@ -25,13 +28,18 @@
     //--- left
     .header-left {
         grid-column: 2/3;
-        grid-row: 5/8;
-        @include smallBox(c.$color-1);
-
-    }
-    .left {
-        grid-column: 2/3;
         grid-row: 2/7;
+        z-index: 1;
+        background-color: c.$color-1;
+        background-image: url(../../starter_files/images/blue-eyes.png);
+        background-repeat: no-repeat;
+        background-size: 37%;
+        background-position: 30% 20%;
+        border-radius: 15px;
+    }
+    .left-bottom {
+        grid-column: 2/3;
+        grid-row: 5/8;
         @include smallBox(c.$color-3);
     }
 
@@ -39,7 +47,6 @@
     .header-work {
         grid-column: 3/4;
         grid-row: 2/4;
-        z-index: -1;
         @include head(c.$color-6, url(../../starter_files/images/icon-work.svg));
     }
     .work {
