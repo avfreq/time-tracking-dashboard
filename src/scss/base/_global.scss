@@ -1,0 +1,18 @@
+@use "../abstracts/fonts" as f;
+@use "../abstracts/colors" as c;
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: f.$rubik;
+    font-size: 1rem;
+    color: c.$color-5;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: c.$color-4;
+
+}

@@ -1,0 +1,114 @@
+@use "../abstracts/colors" as c;
+@mixin smallBox {
+    background-color: c.$color-1;
+    border-radius: 15px;
+}
+
+@mixin head($col, $img) {
+    background-image: $img;
+    background-size:25%;
+    background-repeat: no-repeat;
+    background-color: $col;
+    background-position: right top;
+    border-radius: 15px 15px 0 0;
+    padding: 20px;
+}
+
+.global-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr .10fr .1fr 1fr .10fr .1fr 1fr 1fr;
+    width: 100vw;
+    height: 100vh;
+    grid-gap: 25px;
+
+    .lg-container {
+        grid-column: 2/3;
+        grid-row: 2/7;
+        @include smallBox;
+
+    }
+
+    //--- work
+    .header-work {
+        grid-column: 3/4;
+        grid-row: 2/4;
+        z-index: -1;
+        @include head(c.$color-6, url(../../starter_files/images/icon-work.svg));
+    }
+    .work {
+        grid-column: 3/4;
+        grid-row: 3/5;
+        @include smallBox;
+    }
+
+    //--- play
+    .header-play {
+        grid-column: 4/5;
+        grid-row: 2/4;
+        z-index: -1;
+        @include head(c.$color-9, url(../../starter_files/images/icon-play.svg));
+    }
+    .play {
+        grid-column: 4/5;
+        grid-row: 3/5;
+        @include smallBox;
+    }
+
+    //--- study
+    .header-study {
+        grid-column: 5/6;
+        grid-row: 2/4;
+        z-index: -1;
+        @include head(c.$color-11, url(../../starter_files/images/icon-study.svg));
+    }
+    .study {
+        grid-column: 5/6;
+        grid-row: 3/5;
+        @include smallBox;
+    }
+
+    //--- exercise
+    .header-exercise {
+        grid-column: 3/4;
+        grid-row: 5/7;
+        z-index: -1;
+        @include head(c.$color-13, url(../../starter_files/images/icon-exercise.svg));
+    }
+    .exercise {
+        grid-column: 3/4;
+        grid-row: 6/8;
+        @include smallBox;
+    }
+
+    //--- social
+    .header-social {
+        grid-column: 4/5;
+        grid-row: 5/7;
+        z-index: -1;
+        @include head(c.$color-15, url(../../starter_files/images/icon-social.svg));
+    }
+    .social {
+        grid-column: 4/5;
+        grid-row: 6/8;
+        @include smallBox;
+
+    }
+    //--- self care
+    .header-self-care {
+        grid-column: 5/6;
+        grid-row: 5/7;
+        z-index: -1;
+        @include head(c.$color-17, url(../../starter_files/images/icon-self-care.svg));
+    }
+    .self-care {
+        grid-column: 5/6;
+        grid-row: 6/8;
+        @include smallBox;
+    }
+
+    .attribution {
+        grid-column: 2/6;
+        grid-row: 8/9;
+    }
+}
