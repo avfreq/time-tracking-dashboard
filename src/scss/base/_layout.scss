@@ -1,6 +1,6 @@
 @use "../abstracts/colors" as c;
-@mixin smallBox {
-    background-color: c.$color-1;
+@mixin smallBox($col) {
+    background-color: $col;
     border-radius: 15px;
 }
 
@@ -9,7 +9,7 @@
     background-size:25%;
     background-repeat: no-repeat;
     background-color: $col;
-    background-position: right top;
+    background-position: 90% 30%;
     border-radius: 15px 15px 0 0;
     padding: 20px;
 }
@@ -22,11 +22,17 @@
     height: 100vh;
     grid-gap: 25px;
 
-    .lg-container {
+    //--- left
+    .header-left {
+        grid-column: 2/3;
+        grid-row: 5/8;
+        @include smallBox(c.$color-1);
+
+    }
+    .left {
         grid-column: 2/3;
         grid-row: 2/7;
-        @include smallBox;
-
+        @include smallBox(c.$color-3);
     }
 
     //--- work
@@ -39,7 +45,7 @@
     .work {
         grid-column: 3/4;
         grid-row: 3/5;
-        @include smallBox;
+        @include smallBox(c.$color-1);
     }
 
     //--- play
@@ -52,7 +58,7 @@
     .play {
         grid-column: 4/5;
         grid-row: 3/5;
-        @include smallBox;
+        @include smallBox(c.$color-1);
     }
 
     //--- study
@@ -65,7 +71,7 @@
     .study {
         grid-column: 5/6;
         grid-row: 3/5;
-        @include smallBox;
+        @include smallBox(c.$color-1);
     }
 
     //--- exercise
@@ -78,7 +84,7 @@
     .exercise {
         grid-column: 3/4;
         grid-row: 6/8;
-        @include smallBox;
+        @include smallBox(c.$color-1);
     }
 
     //--- social
@@ -91,7 +97,7 @@
     .social {
         grid-column: 4/5;
         grid-row: 6/8;
-        @include smallBox;
+        @include smallBox(c.$color-1);
 
     }
     //--- self care
@@ -104,7 +110,7 @@
     .self-care {
         grid-column: 5/6;
         grid-row: 6/8;
-        @include smallBox;
+        @include smallBox(c.$color-1);
     }
 
     .attribution {

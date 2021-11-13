@@ -22,10 +22,16 @@ body {
   height: 100vh;
   grid-gap: 25px;
 }
-.global-container .lg-container {
+.global-container .header-left {
+  grid-column: 2/3;
+  grid-row: 5/8;
+  background-color: #1D204B;
+  border-radius: 15px;
+}
+.global-container .left {
   grid-column: 2/3;
   grid-row: 2/7;
-  background-color: #1D204B;
+  background-color: #5746EA;
   border-radius: 15px;
 }
 .global-container .header-work {
@@ -36,7 +42,7 @@ body {
   background-size: 25%;
   background-repeat: no-repeat;
   background-color: #FF8B64;
-  background-position: right top;
+  background-position: 90% 30%;
   border-radius: 15px 15px 0 0;
   padding: 20px;
 }
@@ -54,7 +60,7 @@ body {
   background-size: 25%;
   background-repeat: no-repeat;
   background-color: #56C2E6;
-  background-position: right top;
+  background-position: 90% 30%;
   border-radius: 15px 15px 0 0;
   padding: 20px;
 }
@@ -72,7 +78,7 @@ body {
   background-size: 25%;
   background-repeat: no-repeat;
   background-color: #F75B79;
-  background-position: right top;
+  background-position: 90% 30%;
   border-radius: 15px 15px 0 0;
   padding: 20px;
 }
@@ -90,7 +96,7 @@ body {
   background-size: 25%;
   background-repeat: no-repeat;
   background-color: #4BCF83;
-  background-position: right top;
+  background-position: 90% 30%;
   border-radius: 15px 15px 0 0;
   padding: 20px;
 }
@@ -108,7 +114,7 @@ body {
   background-size: 25%;
   background-repeat: no-repeat;
   background-color: #7235D2;
-  background-position: right top;
+  background-position: 90% 30%;
   border-radius: 15px 15px 0 0;
   padding: 20px;
 }
@@ -126,7 +132,7 @@ body {
   background-size: 25%;
   background-repeat: no-repeat;
   background-color: #F1C75B;
-  background-position: right top;
+  background-position: 90% 30%;
   border-radius: 15px 15px 0 0;
   padding: 20px;
 }
