@@ -14,10 +14,6 @@ body {
   background-color: #0D1323;
 }
 
-.sm-container, .lg-container {
-  padding: 20px;
-}
-
 .global-container {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -26,31 +22,43 @@ body {
   height: 100vh;
   grid-gap: 25px;
 }
-.global-container .header-left {
+.global-container .left-top {
   grid-column: 2/3;
   grid-row: 2/7;
   z-index: 1;
-  background-color: #1D204B;
-  background-image: url(../../starter_files/images/blue-eyes.png);
+  background-color: #5746EA;
+  background-image: url(../../starter_files/images/blue-eyes-w.png);
   background-repeat: no-repeat;
   background-size: 37%;
-  background-position: 30% 20%;
+  background-position: 20% 10%;
   border-radius: 15px;
+  position: relative;
+  padding: 60% 20px 20px 20px;
+}
+.global-container .left-top .list1 {
+  font-size: 10px;
+  line-height: 50px;
+}
+.global-container .left-top .list2 {
+  font-size: 2rem;
 }
 .global-container .left-bottom {
   grid-column: 2/3;
   grid-row: 5/8;
-  background-color: #5746EA;
+  padding-top: 50%;
+  padding-left: 20px;
+  line-height: 40px;
+  background-color: #1D204B;
   border-radius: 15px;
 }
 .global-container .header-work {
   grid-column: 3/4;
-  grid-row: 2/4;
+  grid-row: 2/5;
   background-image: url(../../starter_files/images/icon-work.svg);
   background-size: 25%;
   background-repeat: no-repeat;
   background-color: #FF8B64;
-  background-position: 90% 30%;
+  background-position: 90% -2%;
   border-radius: 15px;
 }
 .global-container .work {
@@ -61,13 +69,13 @@ body {
 }
 .global-container .header-play {
   grid-column: 4/5;
-  grid-row: 2/4;
+  grid-row: 2/5;
   z-index: -1;
   background-image: url(../../starter_files/images/icon-play.svg);
   background-size: 25%;
   background-repeat: no-repeat;
   background-color: #56C2E6;
-  background-position: 90% 30%;
+  background-position: 90% -2%;
   border-radius: 15px;
 }
 .global-container .play {
@@ -78,13 +86,13 @@ body {
 }
 .global-container .header-study {
   grid-column: 5/6;
-  grid-row: 2/4;
+  grid-row: 2/5;
   z-index: -1;
   background-image: url(../../starter_files/images/icon-study.svg);
   background-size: 25%;
   background-repeat: no-repeat;
   background-color: #F75B79;
-  background-position: 90% 30%;
+  background-position: 90% -2%;
   border-radius: 15px;
 }
 .global-container .study {
@@ -95,13 +103,13 @@ body {
 }
 .global-container .header-exercise {
   grid-column: 3/4;
-  grid-row: 5/7;
+  grid-row: 5/8;
   z-index: -1;
   background-image: url(../../starter_files/images/icon-exercise.svg);
   background-size: 25%;
   background-repeat: no-repeat;
   background-color: #4BCF83;
-  background-position: 90% 30%;
+  background-position: 90% -2%;
   border-radius: 15px;
 }
 .global-container .exercise {
@@ -112,13 +120,13 @@ body {
 }
 .global-container .header-social {
   grid-column: 4/5;
-  grid-row: 5/7;
+  grid-row: 5/8;
   z-index: -1;
   background-image: url(../../starter_files/images/icon-social.svg);
   background-size: 25%;
   background-repeat: no-repeat;
   background-color: #7235D2;
-  background-position: 90% 30%;
+  background-position: 90% -2%;
   border-radius: 15px;
 }
 .global-container .social {
@@ -129,13 +137,13 @@ body {
 }
 .global-container .header-self-care {
   grid-column: 5/6;
-  grid-row: 5/7;
+  grid-row: 5/8;
   z-index: -1;
   background-image: url(../../starter_files/images/icon-self-care.svg);
   background-size: 25%;
   background-repeat: no-repeat;
   background-color: #F1C75B;
-  background-position: 90% 30%;
+  background-position: 90% -2%;
   border-radius: 15px;
 }
 .global-container .self-care {
