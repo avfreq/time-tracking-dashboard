@@ -58,7 +58,7 @@ body {
   background-size: 25%;
   background-repeat: no-repeat;
   background-color: #FF8B64;
-  background-position: 90% -2%;
+  background-position: 90% 0%;
   border-radius: 15px;
 }
 .global-container .work {
@@ -66,6 +66,7 @@ body {
   grid-row: 3/5;
   background-color: #1D204B;
   border-radius: 15px;
+  padding: 20px;
 }
 .global-container .header-play {
   grid-column: 4/5;
@@ -75,7 +76,7 @@ body {
   background-size: 25%;
   background-repeat: no-repeat;
   background-color: #56C2E6;
-  background-position: 90% -2%;
+  background-position: 90% 0%;
   border-radius: 15px;
 }
 .global-container .play {
@@ -83,6 +84,7 @@ body {
   grid-row: 3/5;
   background-color: #1D204B;
   border-radius: 15px;
+  padding: 20px;
 }
 .global-container .header-study {
   grid-column: 5/6;
@@ -92,7 +94,7 @@ body {
   background-size: 25%;
   background-repeat: no-repeat;
   background-color: #F75B79;
-  background-position: 90% -2%;
+  background-position: 90% 0%;
   border-radius: 15px;
 }
 .global-container .study {
@@ -100,6 +102,7 @@ body {
   grid-row: 3/5;
   background-color: #1D204B;
   border-radius: 15px;
+  padding: 20px;
 }
 .global-container .header-exercise {
   grid-column: 3/4;
@@ -109,7 +112,7 @@ body {
   background-size: 25%;
   background-repeat: no-repeat;
   background-color: #4BCF83;
-  background-position: 90% -2%;
+  background-position: 90% 0%;
   border-radius: 15px;
 }
 .global-container .exercise {
@@ -117,6 +120,7 @@ body {
   grid-row: 6/8;
   background-color: #1D204B;
   border-radius: 15px;
+  padding: 20px;
 }
 .global-container .header-social {
   grid-column: 4/5;
@@ -126,7 +130,7 @@ body {
   background-size: 25%;
   background-repeat: no-repeat;
   background-color: #7235D2;
-  background-position: 90% -2%;
+  background-position: 90% 0%;
   border-radius: 15px;
 }
 .global-container .social {
@@ -134,6 +138,7 @@ body {
   grid-row: 6/8;
   background-color: #1D204B;
   border-radius: 15px;
+  padding: 20px;
 }
 .global-container .header-self-care {
   grid-column: 5/6;
@@ -143,7 +148,7 @@ body {
   background-size: 25%;
   background-repeat: no-repeat;
   background-color: #F1C75B;
-  background-position: 90% -2%;
+  background-position: 90% 0%;
   border-radius: 15px;
 }
 .global-container .self-care {
@@ -151,6 +156,7 @@ body {
   grid-row: 6/8;
   background-color: #1D204B;
   border-radius: 15px;
+  padding: 20px;
 }
 .global-container .attribution {
   grid-column: 2/6;
