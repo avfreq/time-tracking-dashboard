@@ -16,8 +16,8 @@ body {
 
 .global-container {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 1fr 0.1fr 0.1fr 1fr 0.1fr 0.1fr 1fr 1fr;
+  grid-template-columns: 0.5fr repeat(4, 1fr) 0.5fr;
+  grid-template-rows: 0.5fr 0.1fr 0.1fr 1fr 0.1fr 0.1fr 1fr 0.5fr;
   width: 100vw;
   height: 100vh;
   grid-gap: 25px;
@@ -69,7 +69,7 @@ body {
   border-radius: 15px;
   padding: 20px;
 }
-.global-container .work-ul .work-li0 {
+.global-container .work-ul .work-li0, .global-container .work-ul .play-li0, .global-container .work-ul .study-li0, .global-container .work-ul .exercise-li0, .global-container .work-ul .social-li0, .global-container .work-ul .self-care-li0 {
   background-image: url(../../starter_files/images/meatballs.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -80,14 +80,14 @@ body {
   right: 20px;
   position: absolute;
 }
-.global-container .work-ul .work-li1 {
+.global-container .work-ul .work-li1, .global-container .work-ul .play-li1, .global-container .work-ul .study-li1, .global-container .work-ul .exercise-li1, .global-container .work-ul .social-li1, .global-container .work-ul .self-care-li1 {
   font-size: 1rem;
 }
-.global-container .work-ul .work-li2 {
+.global-container .work-ul .work-li2, .global-container .work-ul .play-li2, .global-container .work-ul .study-li2, .global-container .work-ul .exercise-li2, .global-container .work-ul .social-li2, .global-container .work-ul .self-care-li2 {
   font-size: 3rem;
-  margin-top: 50px;
+  margin-top: 40%;
 }
-.global-container .work-ul .work-li3 {
+.global-container .work-ul .work-li3, .global-container .work-ul .play-li3, .global-container .work-ul .study-li3, .global-container .work-ul .exercise-li3, .global-container .work-ul .social-li3, .global-container .work-ul .self-care-li3 {
   font-size: 0.8rem;
   margin-top: 10px;
   color: rgba(255, 255, 255, 0.5);
@@ -103,12 +103,36 @@ body {
   background-position: 90% 0%;
   border-radius: 15px;
 }
-.global-container .play {
+.global-container .play-ul {
   grid-column: 4/5;
   grid-row: 3/5;
+  position: relative;
   background-color: #1D204B;
   border-radius: 15px;
   padding: 20px;
+}
+.global-container .play-ul .work-li0, .global-container .play-ul .play-li0, .global-container .play-ul .study-li0, .global-container .play-ul .exercise-li0, .global-container .play-ul .social-li0, .global-container .play-ul .self-care-li0 {
+  background-image: url(../../starter_files/images/meatballs.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right top;
+  width: 30px;
+  height: 30px;
+  top: 13px;
+  right: 20px;
+  position: absolute;
+}
+.global-container .play-ul .work-li1, .global-container .play-ul .play-li1, .global-container .play-ul .study-li1, .global-container .play-ul .exercise-li1, .global-container .play-ul .social-li1, .global-container .play-ul .self-care-li1 {
+  font-size: 1rem;
+}
+.global-container .play-ul .work-li2, .global-container .play-ul .play-li2, .global-container .play-ul .study-li2, .global-container .play-ul .exercise-li2, .global-container .play-ul .social-li2, .global-container .play-ul .self-care-li2 {
+  font-size: 3rem;
+  margin-top: 40%;
+}
+.global-container .play-ul .work-li3, .global-container .play-ul .play-li3, .global-container .play-ul .study-li3, .global-container .play-ul .exercise-li3, .global-container .play-ul .social-li3, .global-container .play-ul .self-care-li3 {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.5);
 }
 .global-container .header-study {
   grid-column: 5/6;
@@ -121,12 +145,36 @@ body {
   background-position: 90% 0%;
   border-radius: 15px;
 }
-.global-container .study {
+.global-container .study-ul {
   grid-column: 5/6;
   grid-row: 3/5;
+  position: relative;
   background-color: #1D204B;
   border-radius: 15px;
   padding: 20px;
+}
+.global-container .study-ul .work-li0, .global-container .study-ul .play-li0, .global-container .study-ul .study-li0, .global-container .study-ul .exercise-li0, .global-container .study-ul .social-li0, .global-container .study-ul .self-care-li0 {
+  background-image: url(../../starter_files/images/meatballs.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right top;
+  width: 30px;
+  height: 30px;
+  top: 13px;
+  right: 20px;
+  position: absolute;
+}
+.global-container .study-ul .work-li1, .global-container .study-ul .play-li1, .global-container .study-ul .study-li1, .global-container .study-ul .exercise-li1, .global-container .study-ul .social-li1, .global-container .study-ul .self-care-li1 {
+  font-size: 1rem;
+}
+.global-container .study-ul .work-li2, .global-container .study-ul .play-li2, .global-container .study-ul .study-li2, .global-container .study-ul .exercise-li2, .global-container .study-ul .social-li2, .global-container .study-ul .self-care-li2 {
+  font-size: 3rem;
+  margin-top: 40%;
+}
+.global-container .study-ul .work-li3, .global-container .study-ul .play-li3, .global-container .study-ul .study-li3, .global-container .study-ul .exercise-li3, .global-container .study-ul .social-li3, .global-container .study-ul .self-care-li3 {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.5);
 }
 .global-container .header-exercise {
   grid-column: 3/4;
@@ -139,12 +187,36 @@ body {
   background-position: 90% 0%;
   border-radius: 15px;
 }
-.global-container .exercise {
+.global-container .exercise-ul {
   grid-column: 3/4;
   grid-row: 6/8;
+  position: relative;
   background-color: #1D204B;
   border-radius: 15px;
   padding: 20px;
+}
+.global-container .exercise-ul .work-li0, .global-container .exercise-ul .play-li0, .global-container .exercise-ul .study-li0, .global-container .exercise-ul .exercise-li0, .global-container .exercise-ul .social-li0, .global-container .exercise-ul .self-care-li0 {
+  background-image: url(../../starter_files/images/meatballs.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right top;
+  width: 30px;
+  height: 30px;
+  top: 13px;
+  right: 20px;
+  position: absolute;
+}
+.global-container .exercise-ul .work-li1, .global-container .exercise-ul .play-li1, .global-container .exercise-ul .study-li1, .global-container .exercise-ul .exercise-li1, .global-container .exercise-ul .social-li1, .global-container .exercise-ul .self-care-li1 {
+  font-size: 1rem;
+}
+.global-container .exercise-ul .work-li2, .global-container .exercise-ul .play-li2, .global-container .exercise-ul .study-li2, .global-container .exercise-ul .exercise-li2, .global-container .exercise-ul .social-li2, .global-container .exercise-ul .self-care-li2 {
+  font-size: 3rem;
+  margin-top: 40%;
+}
+.global-container .exercise-ul .work-li3, .global-container .exercise-ul .play-li3, .global-container .exercise-ul .study-li3, .global-container .exercise-ul .exercise-li3, .global-container .exercise-ul .social-li3, .global-container .exercise-ul .self-care-li3 {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.5);
 }
 .global-container .header-social {
   grid-column: 4/5;
@@ -157,12 +229,36 @@ body {
   background-position: 90% 0%;
   border-radius: 15px;
 }
-.global-container .social {
+.global-container .social-ul {
   grid-column: 4/5;
   grid-row: 6/8;
+  position: relative;
   background-color: #1D204B;
   border-radius: 15px;
   padding: 20px;
+}
+.global-container .social-ul .work-li0, .global-container .social-ul .play-li0, .global-container .social-ul .study-li0, .global-container .social-ul .exercise-li0, .global-container .social-ul .social-li0, .global-container .social-ul .self-care-li0 {
+  background-image: url(../../starter_files/images/meatballs.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right top;
+  width: 30px;
+  height: 30px;
+  top: 13px;
+  right: 20px;
+  position: absolute;
+}
+.global-container .social-ul .work-li1, .global-container .social-ul .play-li1, .global-container .social-ul .study-li1, .global-container .social-ul .exercise-li1, .global-container .social-ul .social-li1, .global-container .social-ul .self-care-li1 {
+  font-size: 1rem;
+}
+.global-container .social-ul .work-li2, .global-container .social-ul .play-li2, .global-container .social-ul .study-li2, .global-container .social-ul .exercise-li2, .global-container .social-ul .social-li2, .global-container .social-ul .self-care-li2 {
+  font-size: 3rem;
+  margin-top: 40%;
+}
+.global-container .social-ul .work-li3, .global-container .social-ul .play-li3, .global-container .social-ul .study-li3, .global-container .social-ul .exercise-li3, .global-container .social-ul .social-li3, .global-container .social-ul .self-care-li3 {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.5);
 }
 .global-container .header-self-care {
   grid-column: 5/6;
@@ -175,12 +271,36 @@ body {
   background-position: 90% 0%;
   border-radius: 15px;
 }
-.global-container .self-care {
+.global-container .self-care-ul {
   grid-column: 5/6;
   grid-row: 6/8;
+  position: relative;
   background-color: #1D204B;
   border-radius: 15px;
   padding: 20px;
+}
+.global-container .self-care-ul .work-li0, .global-container .self-care-ul .play-li0, .global-container .self-care-ul .study-li0, .global-container .self-care-ul .exercise-li0, .global-container .self-care-ul .social-li0, .global-container .self-care-ul .self-care-li0 {
+  background-image: url(../../starter_files/images/meatballs.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right top;
+  width: 30px;
+  height: 30px;
+  top: 13px;
+  right: 20px;
+  position: absolute;
+}
+.global-container .self-care-ul .work-li1, .global-container .self-care-ul .play-li1, .global-container .self-care-ul .study-li1, .global-container .self-care-ul .exercise-li1, .global-container .self-care-ul .social-li1, .global-container .self-care-ul .self-care-li1 {
+  font-size: 1rem;
+}
+.global-container .self-care-ul .work-li2, .global-container .self-care-ul .play-li2, .global-container .self-care-ul .study-li2, .global-container .self-care-ul .exercise-li2, .global-container .self-care-ul .social-li2, .global-container .self-care-ul .self-care-li2 {
+  font-size: 3rem;
+  margin-top: 40%;
+}
+.global-container .self-care-ul .work-li3, .global-container .self-care-ul .play-li3, .global-container .self-care-ul .study-li3, .global-container .self-care-ul .exercise-li3, .global-container .self-care-ul .social-li3, .global-container .self-care-ul .self-care-li3 {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.5);
 }
 .global-container .attribution {
   grid-column: 2/6;

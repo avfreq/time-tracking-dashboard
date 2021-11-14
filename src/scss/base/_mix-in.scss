@@ -17,7 +17,7 @@
 
 @mixin card-data {
 
-    .work-li0 {
+    .work-li0, .play-li0, .study-li0, .exercise-li0, .social-li0, .self-care-li0 { // meatballs
         background-image: url(../../starter_files/images/meatballs.png);
         background-size: cover;
         background-repeat: no-repeat;
@@ -29,19 +29,20 @@
         position: absolute;
     }
 
-    .work-li1 {
+    .work-li1, .play-li1, .study-li1, .exercise-li1, .social-li1, .self-care-li1 { // "work" text
         font-size: 1rem;
     }
     
-    .work-li2 { // 32hrs
+    .work-li2, .play-li2, .study-li2, .exercise-li2, .social-li2, .self-care-li2 { // 32hrs
         font-size: 3rem;
-        margin-top: 50px;
+        margin-top: 40%;
 
     }
 
-    .work-li3 {
+    .work-li3, .play-li3, .study-li3, .exercise-li3, .social-li3, .self-care-li3 { // daily, weekly, monthly
         font-size: .8rem;
         margin-top: 10px;
         color: c.$color-7;
     }
+
 }
