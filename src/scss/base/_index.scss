@@ -1,5 +1,3 @@
-@forward "../base/mix";
-@forward "../base/layout";
-@forward "../base/global";
-@forward "../abstracts/fonts";
-@forward "../abstracts/colors";
+@forward "mix-in";
+@forward "layout";
+@forward "global";

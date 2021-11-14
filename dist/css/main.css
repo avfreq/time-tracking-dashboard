@@ -45,7 +45,7 @@ body {
 .global-container .left-bottom {
   grid-column: 2/3;
   grid-row: 5/8;
-  padding-top: 50%;
+  padding-top: 40%;
   padding-left: 20px;
   line-height: 40px;
   background-color: #1D204B;
@@ -61,12 +61,36 @@ body {
   background-position: 90% 0%;
   border-radius: 15px;
 }
-.global-container .work {
+.global-container .work-ul {
   grid-column: 3/4;
   grid-row: 3/5;
+  position: relative;
   background-color: #1D204B;
   border-radius: 15px;
   padding: 20px;
+}
+.global-container .work-ul .work-li0 {
+  background-image: url(../../starter_files/images/meatballs.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right top;
+  width: 30px;
+  height: 30px;
+  top: 13px;
+  right: 20px;
+  position: absolute;
+}
+.global-container .work-ul .work-li1 {
+  font-size: 1rem;
+}
+.global-container .work-ul .work-li2 {
+  font-size: 3rem;
+  margin-top: 50px;
+}
+.global-container .work-ul .work-li3 {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.5);
 }
 .global-container .header-play {
   grid-column: 4/5;
