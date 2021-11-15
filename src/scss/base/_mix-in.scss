@@ -4,6 +4,7 @@
     background-color: $col;
     border-radius: 15px;
     padding: 20px;
+    cursor: pointer;
 }
 
 @mixin head($col, $img) {
@@ -27,6 +28,7 @@
         top: 13px;
         right: 20px;
         position: absolute;
+        cursor: pointer;
     }
 
     .work-li1, .play-li1, .study-li1, .exercise-li1, .social-li1, .self-care-li1 { // "work" text

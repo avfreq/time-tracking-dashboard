@@ -51,6 +51,12 @@ body {
   background-color: #1D204B;
   border-radius: 15px;
 }
+.global-container a {
+  cursor: pointer;
+}
+.global-container .sm-cont:hover {
+  background-color: #34397B;
+}
 .global-container .header-work {
   grid-column: 3/4;
   grid-row: 2/5;
@@ -68,6 +74,7 @@ body {
   background-color: #1D204B;
   border-radius: 15px;
   padding: 20px;
+  cursor: pointer;
 }
 .global-container .work-ul .work-li0, .global-container .work-ul .play-li0, .global-container .work-ul .study-li0, .global-container .work-ul .exercise-li0, .global-container .work-ul .social-li0, .global-container .work-ul .self-care-li0 {
   background-image: url(../../starter_files/images/meatballs.png);
@@ -79,6 +86,7 @@ body {
   top: 13px;
   right: 20px;
   position: absolute;
+  cursor: pointer;
 }
 .global-container .work-ul .work-li1, .global-container .work-ul .play-li1, .global-container .work-ul .study-li1, .global-container .work-ul .exercise-li1, .global-container .work-ul .social-li1, .global-container .work-ul .self-care-li1 {
   font-size: 1rem;
@@ -110,6 +118,7 @@ body {
   background-color: #1D204B;
   border-radius: 15px;
   padding: 20px;
+  cursor: pointer;
 }
 .global-container .play-ul .work-li0, .global-container .play-ul .play-li0, .global-container .play-ul .study-li0, .global-container .play-ul .exercise-li0, .global-container .play-ul .social-li0, .global-container .play-ul .self-care-li0 {
   background-image: url(../../starter_files/images/meatballs.png);
@@ -121,6 +130,7 @@ body {
   top: 13px;
   right: 20px;
   position: absolute;
+  cursor: pointer;
 }
 .global-container .play-ul .work-li1, .global-container .play-ul .play-li1, .global-container .play-ul .study-li1, .global-container .play-ul .exercise-li1, .global-container .play-ul .social-li1, .global-container .play-ul .self-care-li1 {
   font-size: 1rem;
@@ -152,6 +162,7 @@ body {
   background-color: #1D204B;
   border-radius: 15px;
   padding: 20px;
+  cursor: pointer;
 }
 .global-container .study-ul .work-li0, .global-container .study-ul .play-li0, .global-container .study-ul .study-li0, .global-container .study-ul .exercise-li0, .global-container .study-ul .social-li0, .global-container .study-ul .self-care-li0 {
   background-image: url(../../starter_files/images/meatballs.png);
@@ -163,6 +174,7 @@ body {
   top: 13px;
   right: 20px;
   position: absolute;
+  cursor: pointer;
 }
 .global-container .study-ul .work-li1, .global-container .study-ul .play-li1, .global-container .study-ul .study-li1, .global-container .study-ul .exercise-li1, .global-container .study-ul .social-li1, .global-container .study-ul .self-care-li1 {
   font-size: 1rem;
@@ -194,6 +206,7 @@ body {
   background-color: #1D204B;
   border-radius: 15px;
   padding: 20px;
+  cursor: pointer;
 }
 .global-container .exercise-ul .work-li0, .global-container .exercise-ul .play-li0, .global-container .exercise-ul .study-li0, .global-container .exercise-ul .exercise-li0, .global-container .exercise-ul .social-li0, .global-container .exercise-ul .self-care-li0 {
   background-image: url(../../starter_files/images/meatballs.png);
@@ -205,6 +218,7 @@ body {
   top: 13px;
   right: 20px;
   position: absolute;
+  cursor: pointer;
 }
 .global-container .exercise-ul .work-li1, .global-container .exercise-ul .play-li1, .global-container .exercise-ul .study-li1, .global-container .exercise-ul .exercise-li1, .global-container .exercise-ul .social-li1, .global-container .exercise-ul .self-care-li1 {
   font-size: 1rem;
@@ -236,6 +250,7 @@ body {
   background-color: #1D204B;
   border-radius: 15px;
   padding: 20px;
+  cursor: pointer;
 }
 .global-container .social-ul .work-li0, .global-container .social-ul .play-li0, .global-container .social-ul .study-li0, .global-container .social-ul .exercise-li0, .global-container .social-ul .social-li0, .global-container .social-ul .self-care-li0 {
   background-image: url(../../starter_files/images/meatballs.png);
@@ -247,6 +262,7 @@ body {
   top: 13px;
   right: 20px;
   position: absolute;
+  cursor: pointer;
 }
 .global-container .social-ul .work-li1, .global-container .social-ul .play-li1, .global-container .social-ul .study-li1, .global-container .social-ul .exercise-li1, .global-container .social-ul .social-li1, .global-container .social-ul .self-care-li1 {
   font-size: 1rem;
@@ -278,6 +294,7 @@ body {
   background-color: #1D204B;
   border-radius: 15px;
   padding: 20px;
+  cursor: pointer;
 }
 .global-container .self-care-ul .work-li0, .global-container .self-care-ul .play-li0, .global-container .self-care-ul .study-li0, .global-container .self-care-ul .exercise-li0, .global-container .self-care-ul .social-li0, .global-container .self-care-ul .self-care-li0 {
   background-image: url(../../starter_files/images/meatballs.png);
@@ -289,6 +306,7 @@ body {
   top: 13px;
   right: 20px;
   position: absolute;
+  cursor: pointer;
 }
 .global-container .self-care-ul .work-li1, .global-container .self-care-ul .play-li1, .global-container .self-care-ul .study-li1, .global-container .self-care-ul .exercise-li1, .global-container .self-care-ul .social-li1, .global-container .self-care-ul .self-care-li1 {
   font-size: 1rem;

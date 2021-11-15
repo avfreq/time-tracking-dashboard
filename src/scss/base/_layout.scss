@@ -41,7 +41,15 @@
         border-radius: 15px;
     }
 
-    //--- work
+    a {
+        cursor: pointer; // pointer for left lower, daily, weekly, monthly
+    }
+
+    .sm-cont:hover { // hover background for all 6 boxes on the right
+        background-color: c.$color-2;
+    }
+
+    //--- work card
     .header-work {
         grid-column: 3/4;
         grid-row: 2/5;
@@ -55,7 +63,7 @@
         @include m.card-data;
     }
 
-    //--- play
+    //--- play card
     .header-play {
         grid-column: 4/5;
         grid-row: 2/5;
@@ -70,7 +78,7 @@
         @include m.card-data;
     }
 
-    //--- study
+    //--- study card
     .header-study {
         grid-column: 5/6;
         grid-row: 2/5;

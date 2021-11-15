@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="starter_files/images/favicon-32x32.png">
   <link rel="stylesheet" href="dist/css/main.css">
+  <script defer src="js/data.js"></script>
   
   <title>Frontend Mentor | Time tracking dashboar</title>
 
@@ -25,18 +26,18 @@
       </ul>
     
       <ul class="lg-container left-bottom">
-        <li class="lg-container list1"><a href="#">Daily</a></li>
-        <li class="lg-container list2"><a href="#">Weekly</a></li>
-        <li class="lg-container list3"><a href="#">Monthly</a></li>
+        <li class="day pointer" onclick="daily()"><a>Daily</a></li>
+        <li class="week pointer" onclick="weekly()"><a>Weekly</a></li>
+        <li class="month pointer" onclick="monthly()"><a>Monthly</a></li>
       </ul>
-
+</p>
     <!-- work card -->
     <div class="header-work"></div><!-- top-rear card icon -->
     <ul class="sm-cont work-ul">
       <li class="sm-cont-0 work-li0"></li><!-- meatballs -->
       <li class="sm-cont-1 work-li1">Work</li>
-      <li class="sm-cont-2 work-li2">32hrs</li>
-      <li class="sm-cont-3 work-li3">Last Week - 36hrs</li>
+      <li class="data-hrs-work work-li2">32hrs</li>
+      <li class="data-previous-work work-li3">Last Week - 36hrs</li>
     </ul>
 
     <!-- play card-->
@@ -44,8 +45,8 @@
     <ul class="sm-cont play-ul">
       <li class="sm-cont-0 play-li0"></li><!-- meatballs -->
       <li class="sm-cont-1 play-li1">Play</li>
-      <li class="sm-cont-2 play-li2">10hrs</li>
-      <li class="sm-cont-3 play-li3">Last Week - 8hrs</li>
+      <li class="data-hrs-play play-li2">10hrs</li>
+      <li class="data-previous-play play-li3">Last Week - 8hrs</li>
     </ul>
 
     <!-- study card -->
@@ -53,8 +54,8 @@
     <ul class="sm-cont study-ul">
       <li class="sm-cont-0 study-li0"></li><!-- meatballs -->
       <li class="sm-cont-1 study-li1">Study</li>
-      <li class="sm-cont-2 study-li2">4hrs</li>
-      <li class="sm-cont-3 study-li3">Last Week - 7hrs</li>
+      <li class="data-hrs-study study-li2">4hrs</li>
+      <li class="data-previous-study study-li3">Last Week - 7hrs</li>
     </ul>
 
     <!-- exercise card -->
@@ -62,16 +63,16 @@
     <ul class="sm-cont exercise-ul">
       <li class="sm-cont-0 exercise-li0"></li><!-- meatballs -->
       <li class="sm-cont-1 exercise-li1">Exercise</li>
-      <li class="sm-cont-2 exercise-li2">4hrs</li>
-      <li class="sm-cont-3 exercise-li3">Last Week - 5hrs</li>
+      <li class="data-hrs-exercise exercise-li2">4hrs</li>
+      <li class="data-previous-exercise exercise-li3">Last Week - 5hrs</li>
     </ul>
 
     <div class="header-social"></div>
     <ul class="sm-cont social-ul">
       <li class="sm-cont-0 social-li0"></li><!-- meatballs -->
       <li class="sm-cont-1 social-li1">Social</li>
-      <li class="sm-cont-2 social-li2">5hrs</li>
-      <li class="sm-cont-3 social-li3">Last Week - 10hrs</li>
+      <li class="data-hrs-social social-li2">5hrs</li>
+      <li class="data-previous-social social-li3">Last Week - 10hrs</li>
     </ul>
 
     <!-- self care card-->
@@ -79,8 +80,8 @@
     <ul class="sm-cont self-care-ul">
       <li class="sm-cont-0 self-care-li0"></li><!-- meatballs -->
       <li class="sm-cont-1 self-care-li1">Self Care</li>
-      <li class="sm-cont-2 self-care-li2">2hrs</li>
-      <li class="sm-cont-3 self-care-li3">Last Week - 2hrs</li>
+      <li class="data-hrs-self-care self-care-li2">2hrs</li>
+      <li class="data-previous-self-care self-care-li3">Last Week - 2hrs</li>
     </ul>
   
   <div class="attribution">
