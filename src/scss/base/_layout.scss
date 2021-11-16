@@ -93,7 +93,7 @@
         @include m.card-data;
     }
 
-    //--- exercise
+    //--- exercise card
     .header-exercise {
         grid-column: 3/4;
         grid-row: 5/8;
@@ -108,7 +108,7 @@
         @include m.card-data;
     }
 
-    //--- social
+    //--- social card
     .header-social {
         grid-column: 4/5;
         grid-row: 5/8;
@@ -123,7 +123,7 @@
         @include m.card-data;
     }
 
-    //--- self care
+    //--- self care card
     .header-self-care {
         grid-column: 5/6;
         grid-row: 5/8;
