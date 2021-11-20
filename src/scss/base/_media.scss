@@ -28,12 +28,7 @@
         padding-top: 25%;
         display: flex;
         justify-content: space-around;
-        min-width: 0;
-    }
-
-    a {
-        display: grid;
-        grid-row: 2/3;
+        align-items: flex-end;
     }
 
     //--- work card
@@ -110,10 +105,10 @@
 
     .global-container {
         display: grid;
-        grid-template-columns: .01fr 1fr .01fr;
-        grid-template-rows: 0fr .1fr .05fr  .03fr .03fr .15fr  .03fr .03fr .15fr  .03fr .03fr .15fr  .03fr .03fr .15fr  .03fr .03fr .15fr  .03fr .03fr .15fr  .05fr 0fr;
+        grid-template-columns: auto 1fr auto;
+        grid-template-rows: 0fr .1fr .03fr  .03fr .03fr .15fr  .03fr .03fr .15fr  .03fr .03fr .15fr  .03fr .03fr .15fr  .03fr .03fr .15fr  .03fr .03fr .15fr  .05fr 0fr;
         // width: 100vw;
-        // height: 100vh;
+        height: 1800px;
         grid-gap: 10px;
     
         .left-top {
@@ -134,9 +129,10 @@
         .left-bottom {
             grid-column: 2/3;
             grid-row: 2/4;
-            padding-top: 40%;
+            // padding-top: 40%;
             display: flex;
             justify-content: space-around;
+            align-content: flex-end;
         }
     
         //--- work card

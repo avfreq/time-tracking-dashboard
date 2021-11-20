@@ -426,11 +426,7 @@ body {
     padding-top: 25%;
     display: flex;
     justify-content: space-around;
-    min-width: 0;
-  }
-  .global-container a {
-    display: grid;
-    grid-row: 2/3;
+    align-items: flex-end;
   }
   .global-container .header-work {
     grid-column: 2/3;
@@ -491,8 +487,9 @@ body {
 @media (max-width: 428px) {
   .global-container {
     display: grid;
-    grid-template-columns: 0.01fr 1fr 0.01fr;
-    grid-template-rows: 0fr 0.1fr 0.05fr 0.03fr 0.03fr 0.15fr 0.03fr 0.03fr 0.15fr 0.03fr 0.03fr 0.15fr 0.03fr 0.03fr 0.15fr 0.03fr 0.03fr 0.15fr 0.03fr 0.03fr 0.15fr 0.05fr 0fr;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: 0fr 0.1fr 0.03fr 0.03fr 0.03fr 0.15fr 0.03fr 0.03fr 0.15fr 0.03fr 0.03fr 0.15fr 0.03fr 0.03fr 0.15fr 0.03fr 0.03fr 0.15fr 0.03fr 0.03fr 0.15fr 0.05fr 0fr;
+    height: 1800px;
     grid-gap: 10px;
   }
   .global-container .left-top {
@@ -512,9 +509,9 @@ body {
   .global-container .left-bottom {
     grid-column: 2/3;
     grid-row: 2/4;
-    padding-top: 40%;
     display: flex;
     justify-content: space-around;
+    align-content: flex-end;
   }
   .global-container .header-work {
     grid-column: 2/3;
