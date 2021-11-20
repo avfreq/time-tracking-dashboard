@@ -1,4 +1,5 @@
 @use "../abstracts/colors" as c;
+// @use "../base/media" as m;
 
 @mixin smallBox($col) {
     background-color: $col;
@@ -45,6 +46,27 @@
         font-size: .8rem;
         margin-top: 10px;
         color: c.$color-7;
+    }
+
+    @media (max-width: 375px) {
+
+        .work-li2, .play-li2, .study-li2, .exercise-li2, .social-li2, .self-care-li2 {
+            font-size: 3rem;
+            margin-top: 10%;
+    
+        }
+    
+    }
+
+    @media (max-width: 960px) {
+
+        .work-li2, .play-li2, .study-li2, .exercise-li2, .social-li2, .self-care-li2 {
+            font-size: 3rem;
+            margin-top: 15%;
+    
+        }
+
+
     }
 
 }

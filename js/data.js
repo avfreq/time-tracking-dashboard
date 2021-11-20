@@ -1,21 +1,21 @@
 const daily = function() {
     document.querySelector(".data-hrs-work").innerHTML = "5hrs";
-    document.querySelector(".data-previous-work").innerHTML = "This week - 7hrs";
+    document.querySelector(".data-previous-work").innerHTML = "Yesterday - 7hrs";
 
     document.querySelector(".data-hrs-play").innerHTML = "1hrs";
-    document.querySelector(".data-previous-play").innerHTML = "This week - 2hrs";
+    document.querySelector(".data-previous-play").innerHTML = "Yesterday - 2hrs";
 
     document.querySelector(".data-hrs-study").innerHTML = "0hrs";
-    document.querySelector(".data-previous-study").innerHTML = "This week - 1hrs";
+    document.querySelector(".data-previous-study").innerHTML = "Yesterday - 1hrs";
 
     document.querySelector(".data-hrs-exercise").innerHTML = "1hrs";
-    document.querySelector(".data-previous-exercise").innerHTML = "This week - 1hrs";
+    document.querySelector(".data-previous-exercise").innerHTML = "Yesterday - 1hrs";
 
     document.querySelector(".data-hrs-social").innerHTML = "1hrs";
-    document.querySelector(".data-previous-social").innerHTML = "This week - 3hrs";
+    document.querySelector(".data-previous-social").innerHTML = "Yesterday - 3hrs";
 
     document.querySelector(".data-hrs-self-care").innerHTML = "0hrs";
-    document.querySelector(".data-previous-self-care").innerHTML = "This week - 1hrs";
+    document.querySelector(".data-previous-self-care").innerHTML = "Yesterday - 1hrs";
 }
 
 const weekly = function() {

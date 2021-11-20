@@ -45,7 +45,7 @@ body {
 .global-container .left-bottom {
   grid-column: 2/3;
   grid-row: 5/8;
-  padding-top: 40%;
+  padding-top: 30%;
   padding-left: 20px;
   line-height: 40px;
   background-color: #1D204B;
@@ -100,6 +100,18 @@ body {
   margin-top: 10px;
   color: rgba(255, 255, 255, 0.5);
 }
+@media (max-width: 375px) {
+  .global-container .work-ul .work-li2, .global-container .work-ul .play-li2, .global-container .work-ul .study-li2, .global-container .work-ul .exercise-li2, .global-container .work-ul .social-li2, .global-container .work-ul .self-care-li2 {
+    font-size: 3rem;
+    margin-top: 10%;
+  }
+}
+@media (max-width: 960px) {
+  .global-container .work-ul .work-li2, .global-container .work-ul .play-li2, .global-container .work-ul .study-li2, .global-container .work-ul .exercise-li2, .global-container .work-ul .social-li2, .global-container .work-ul .self-care-li2 {
+    font-size: 3rem;
+    margin-top: 15%;
+  }
+}
 .global-container .header-play {
   grid-column: 4/5;
   grid-row: 2/5;
@@ -143,6 +155,18 @@ body {
   font-size: 0.8rem;
   margin-top: 10px;
   color: rgba(255, 255, 255, 0.5);
+}
+@media (max-width: 375px) {
+  .global-container .play-ul .work-li2, .global-container .play-ul .play-li2, .global-container .play-ul .study-li2, .global-container .play-ul .exercise-li2, .global-container .play-ul .social-li2, .global-container .play-ul .self-care-li2 {
+    font-size: 3rem;
+    margin-top: 10%;
+  }
+}
+@media (max-width: 960px) {
+  .global-container .play-ul .work-li2, .global-container .play-ul .play-li2, .global-container .play-ul .study-li2, .global-container .play-ul .exercise-li2, .global-container .play-ul .social-li2, .global-container .play-ul .self-care-li2 {
+    font-size: 3rem;
+    margin-top: 15%;
+  }
 }
 .global-container .header-study {
   grid-column: 5/6;
@@ -188,6 +212,18 @@ body {
   margin-top: 10px;
   color: rgba(255, 255, 255, 0.5);
 }
+@media (max-width: 375px) {
+  .global-container .study-ul .work-li2, .global-container .study-ul .play-li2, .global-container .study-ul .study-li2, .global-container .study-ul .exercise-li2, .global-container .study-ul .social-li2, .global-container .study-ul .self-care-li2 {
+    font-size: 3rem;
+    margin-top: 10%;
+  }
+}
+@media (max-width: 960px) {
+  .global-container .study-ul .work-li2, .global-container .study-ul .play-li2, .global-container .study-ul .study-li2, .global-container .study-ul .exercise-li2, .global-container .study-ul .social-li2, .global-container .study-ul .self-care-li2 {
+    font-size: 3rem;
+    margin-top: 15%;
+  }
+}
 .global-container .header-exercise {
   grid-column: 3/4;
   grid-row: 5/8;
@@ -231,6 +267,18 @@ body {
   font-size: 0.8rem;
   margin-top: 10px;
   color: rgba(255, 255, 255, 0.5);
+}
+@media (max-width: 375px) {
+  .global-container .exercise-ul .work-li2, .global-container .exercise-ul .play-li2, .global-container .exercise-ul .study-li2, .global-container .exercise-ul .exercise-li2, .global-container .exercise-ul .social-li2, .global-container .exercise-ul .self-care-li2 {
+    font-size: 3rem;
+    margin-top: 10%;
+  }
+}
+@media (max-width: 960px) {
+  .global-container .exercise-ul .work-li2, .global-container .exercise-ul .play-li2, .global-container .exercise-ul .study-li2, .global-container .exercise-ul .exercise-li2, .global-container .exercise-ul .social-li2, .global-container .exercise-ul .self-care-li2 {
+    font-size: 3rem;
+    margin-top: 15%;
+  }
 }
 .global-container .header-social {
   grid-column: 4/5;
@@ -276,6 +324,18 @@ body {
   margin-top: 10px;
   color: rgba(255, 255, 255, 0.5);
 }
+@media (max-width: 375px) {
+  .global-container .social-ul .work-li2, .global-container .social-ul .play-li2, .global-container .social-ul .study-li2, .global-container .social-ul .exercise-li2, .global-container .social-ul .social-li2, .global-container .social-ul .self-care-li2 {
+    font-size: 3rem;
+    margin-top: 10%;
+  }
+}
+@media (max-width: 960px) {
+  .global-container .social-ul .work-li2, .global-container .social-ul .play-li2, .global-container .social-ul .study-li2, .global-container .social-ul .exercise-li2, .global-container .social-ul .social-li2, .global-container .social-ul .self-care-li2 {
+    font-size: 3rem;
+    margin-top: 15%;
+  }
+}
 .global-container .header-self-care {
   grid-column: 5/6;
   grid-row: 5/8;
@@ -320,6 +380,18 @@ body {
   margin-top: 10px;
   color: rgba(255, 255, 255, 0.5);
 }
+@media (max-width: 375px) {
+  .global-container .self-care-ul .work-li2, .global-container .self-care-ul .play-li2, .global-container .self-care-ul .study-li2, .global-container .self-care-ul .exercise-li2, .global-container .self-care-ul .social-li2, .global-container .self-care-ul .self-care-li2 {
+    font-size: 3rem;
+    margin-top: 10%;
+  }
+}
+@media (max-width: 960px) {
+  .global-container .self-care-ul .work-li2, .global-container .self-care-ul .play-li2, .global-container .self-care-ul .study-li2, .global-container .self-care-ul .exercise-li2, .global-container .self-care-ul .social-li2, .global-container .self-care-ul .self-care-li2 {
+    font-size: 3rem;
+    margin-top: 15%;
+  }
+}
 .global-container .attribution {
   grid-column: 2/6;
   grid-row: 8/9;
@@ -329,7 +401,7 @@ body {
   .global-container {
     display: grid;
     grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
-    grid-template-rows: 0.5fr 1fr 0.5fr 0.1fr 0.1fr 1fr 0.1fr 0.1fr 1fr 0.2fr 0.5fr;
+    grid-template-rows: 0.5fr 1fr 0.2fr 0.1fr 0.1fr 1fr 0.1fr 0.1fr 1fr 0.1fr 0fr;
     width: 100vw;
     height: 100vh;
     grid-gap: 25px;
@@ -351,9 +423,14 @@ body {
   .global-container .left-bottom {
     grid-column: 2/5;
     grid-row: 2/4;
-    padding-top: 30%;
+    padding-top: 25%;
     display: flex;
     justify-content: space-around;
+    min-width: 0;
+  }
+  .global-container a {
+    display: grid;
+    grid-row: 2/3;
   }
   .global-container .header-work {
     grid-column: 2/3;
@@ -409,6 +486,102 @@ body {
   .global-container .attribution {
     grid-column: 2/5;
     grid-row: 10/11;
+  }
+}
+@media (max-width: 428px) {
+  .global-container {
+    display: grid;
+    grid-template-columns: 0.01fr 1fr 0.01fr;
+    grid-template-rows: 0fr 0.1fr 0.05fr 0.03fr 0.03fr 0.15fr 0.03fr 0.03fr 0.15fr 0.03fr 0.03fr 0.15fr 0.03fr 0.03fr 0.15fr 0.03fr 0.03fr 0.15fr 0.03fr 0.03fr 0.15fr 0.05fr 0fr;
+    grid-gap: 10px;
+  }
+  .global-container .left-top {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-size: 18%;
+    background-position: 10% 50%;
+    padding: 5% 10px 10px 200px;
+  }
+  .global-container .left-top .list1 {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .global-container .left-top .list2 {
+    font-size: 2rem;
+  }
+  .global-container .left-bottom {
+    grid-column: 2/3;
+    grid-row: 2/4;
+    padding-top: 40%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .global-container .header-work {
+    grid-column: 2/3;
+    grid-row: 13/15;
+    width: 94.5vw;
+  }
+  .global-container .work-ul {
+    grid-column: 2/3;
+    grid-row: 14/16;
+  }
+  .global-container .header-play {
+    grid-column: 2/3;
+    grid-row: 10/12;
+    z-index: -1;
+  }
+  .global-container .play-ul {
+    grid-column: 2/3;
+    grid-row: 11/13;
+  }
+  .global-container .header-study {
+    grid-column: 2/3;
+    grid-row: 4/7;
+  }
+  .global-container .study-ul {
+    grid-column: 2/3;
+    grid-row: 5/7;
+  }
+  .global-container .header-exercise {
+    grid-column: 2/3;
+    grid-row: 16/18;
+  }
+  .global-container .exercise-ul {
+    grid-column: 2/3;
+    grid-row: 17/19;
+    position: relative;
+  }
+  .global-container .header-social {
+    grid-column: 2/3;
+    grid-row: 19/21;
+  }
+  .global-container .social-ul {
+    grid-column: 2/3;
+    grid-row: 20/22;
+    position: relative;
+  }
+  .global-container .header-self-care {
+    grid-column: 2/3;
+    grid-row: 7/10;
+  }
+  .global-container .self-care-ul {
+    grid-column: 2/3;
+    grid-row: 8/10;
+  }
+  .global-container .attribution {
+    grid-column: 2/3;
+    grid-row: 22/24;
+  }
+  .global-container .work-li1, .global-container .play-li1, .global-container .study-li1, .global-container .exercise-li1, .global-container .social-li1, .global-container .self-care-li1 {
+    font-size: 1rem;
+  }
+  .global-container .work-li2, .global-container .play-li2, .global-container .study-li2, .global-container .exercise-li2, .global-container .social-li2, .global-container .self-care-li2 {
+    font-size: 3rem;
+    margin-top: 10%;
+  }
+  .global-container .work-li3, .global-container .play-li3, .global-container .study-li3, .global-container .exercise-li3, .global-container .social-li3, .global-container .self-care-li3 {
+    font-size: 0.8rem;
+    margin-top: 10px;
   }
 }
 
